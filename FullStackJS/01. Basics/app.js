@@ -1,19 +1,8 @@
-let name = "Daniel";
-let whatDoYouWannaBecomeInYourLife = "programmer";
-let gender = "Male";
-let twitterHandle = "http://twitter.com";
+let firstFavNum = 89;
+let secondFavNum = 90;
 
-console.log(name);
-
-console.log(whatDoYouWannaBecomeInYourLife);
-
-console.log(gender);
-
-console.log(twitterHandle);
-
-console.table({
-  name: "Daniel",
-  whatDoYouWannaBecomeInYourLife: "programmer",
-  gender: "Male",
-  twitterHandle: "http://twitter.com",
-});
+console.log(firstFavNum - secondFavNum);
+console.log(firstFavNum * secondFavNum);
+console.log(firstFavNum / secondFavNum);
+console.log(firstFavNum % secondFavNum);
+console.log(firstFavNum ** secondFavNum);
