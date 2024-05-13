@@ -1,8 +1,7 @@
-let firstFavNum = 89;
-let secondFavNum = 90;
+let isJsProgrammingLanguage = true;
+let isJsHard = false;
+let favNumb = 50;
 
-console.log(firstFavNum - secondFavNum);
-console.log(firstFavNum * secondFavNum);
-console.log(firstFavNum / secondFavNum);
-console.log(firstFavNum % secondFavNum);
-console.log(firstFavNum ** secondFavNum);
+console.log(isJsProgrammingLanguage);
+console.log(isJsHard);
+console.log(favNumb + undefined);
