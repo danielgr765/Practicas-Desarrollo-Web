@@ -1,15 +1,11 @@
-let fruit = "banana";
 
-switch (fruit) {
-    case "banana":
-        console.log("Banana is good!");
-        break;
-    case "orange":
-        console.log("I love oranges!");
-        break;
-    case "apple":
-        console.log("I am not a fan of apples.");
-        break;
-    default:
-        console.log("I have never heard of that fruit.");
-}
+let favBands = ["Slipknot", "Avenged Sevenfold", "Disturbed"];
+
+console.log(favBands[0]);
+
+let favNumbers = [1, 2, 3, 4];
+let mixexdArr = ["string", ["otherway1", "otherway2"], 123, true];
+
+console.log(favNumbers[3]);
+console.log(mixexdArr[1][0]);
+
