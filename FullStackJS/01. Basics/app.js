@@ -1,8 +1,12 @@
-let favActorFirstName = "Henry";
-let favActorLastName = "Cavill";
-let fullName = favActorFirstName + " " + favActorLastName;
-let uppercase = fullName.toUpperCase();
-let message = `My favorite actor is ${uppercase}, because he likes videogames`;
-message += ` his best show is Silicon Valley`;
+let password;
 
-console.log(message);
+if (password === 8) {
+    console.log("Welcome");
+} else if (password <= 8) {
+    console.log("Password is too short");
+} else if (password >= 8){
+    console.log("Password is too long");
+    console.log("Password should be 8 characters");
+} else {
+    console.log("Please provide a password");
+}
