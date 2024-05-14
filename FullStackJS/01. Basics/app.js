@@ -1,7 +1,11 @@
-let isJsProgrammingLanguage = true;
-let isJsHard = false;
-let favNumb = 50;
+let firstFavNumb = 30;
+let secondFavNumb = 25;
 
-console.log(isJsProgrammingLanguage);
-console.log(isJsHard);
-console.log(favNumb + undefined);
+console.log(firstFavNumb > secondFavNumb);
+console.log(firstFavNumb < secondFavNumb);
+console.log(firstFavNumb >= secondFavNumb);
+console.log(firstFavNumb <= secondFavNumb);
+console.log(firstFavNumb === secondFavNumb);
+console.log(firstFavNumb == secondFavNumb);
+console.log(firstFavNumb !== secondFavNumb);
+console.log(firstFavNumb != secondFavNumb);
