@@ -1,16 +1,9 @@
-const person = {
-    "name": "John Doe",
-    "age": 21,
-    "email": "john.doe@gmail.com",
-    "hobbies": ["Reading", "Cooking", "Running"],
-    "address": {
-        "city": "Mountain View",
-        "idk": true
-    }
-};
+const currentDate = new Date(2024, 2, 24, 12, 30, 0, 0);
 
-//JSON.stringify()
+console.log(`Hola buenas:
 
-const jsonString = JSON.stringify(person);
-const parsedObject = JSON.parse(jsonString);
-console.log(parsedObject);
+${currentDate}`);
+
+let hola = () => console.log(`Hola buenas: ${currentDate}`);
+
+hola();
