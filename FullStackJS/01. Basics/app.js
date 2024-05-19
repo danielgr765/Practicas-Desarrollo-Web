@@ -7,3 +7,5 @@ ${currentDate}`);
 let hola = () => console.log(`Hola buenas: ${currentDate}`);
 
 hola();
+
+setTimeout (() => {console.log("hola"), 2000});
