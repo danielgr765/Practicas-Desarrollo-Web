@@ -1,0 +1,25 @@
+body {
+  background-image: url(background.jpeg);
+  background-position: center;
+  background-repeat: no-repeat; /*background doesn't repeat*/
+  background-size: cover;
+  background-attachment: fixed; /* when scrolling backround stays fixed */
+  margin: 0;
+}
+#clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 2px solid;
+}
+
+#clock {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 6.5rem;
+  text-align: center;
+  color: azure;
+  backdrop-filter: blur(10px);
+  width: 100%;
+  background-color: rgba(240, 248, 255, 0.1);
+}
